@@ -1,2 +1,4 @@
 # filesig-crc32
-C++11 Producer-Consumers Pattern
+Multi-Threaded Producer-Consumers Pattern
+C++11, STL
+IDE: VS2017 & Xcode
