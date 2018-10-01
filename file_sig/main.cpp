@@ -10,6 +10,7 @@
 #include <thread>
 #include <chrono>
 #include <limits>
+#include <string>
 #include <stdlib.h>
 #include "Buffer.h"
 #include "Reader.h"
