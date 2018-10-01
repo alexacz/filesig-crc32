@@ -11,6 +11,7 @@
 #include <memory>
 #include <mutex>
 #include <deque>
+#include <condition_variable>
 
 // Default block size 1MB
 #define BLOCK_SIZE  (1024*1024)

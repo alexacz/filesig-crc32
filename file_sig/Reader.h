@@ -17,8 +17,8 @@
  */
 class Reader {
     
-    std::ifstream&  _stream;
     Buffer&         _buffer;
+	std::ifstream&  _stream;
 
 public:
     
@@ -56,7 +56,7 @@ public:
 #ifdef _WIN32
 					auto read = (size_t)_stream.gcount();
 #else
-                    auto read = _stream.gcount();
+                    auto read = (size_t)_stream.gcount();
 #endif                    
                     // if number of extracted characters is less then block size, it is the last block
                     if ( read < block->_len )
